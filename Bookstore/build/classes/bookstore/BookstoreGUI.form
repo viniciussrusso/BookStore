@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Container class="javax.swing.JToolBar" name="jToolBar1">
+      <Properties>
+        <Property name="rollover" type="boolean" value="true"/>
+      </Properties>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBoxLayout"/>
+    </Container>
+    <Component class="javax.swing.ButtonGroup" name="buttonGroup1">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="buttonGroup2">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="buttonGroup3">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="buttonGroup4">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="buttonGroup5">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="buttonGroup6">
+    </Component>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="100" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="100" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+    </Container>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jLabel1"/>
+      </Properties>
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
+              <Component id="ebookPanel" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="audioPanel" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="appTitle" min="-2" pref="261" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="132" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="addButton" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="displayButton" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="deleteButton" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="loadButton" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="saveButton" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                              <Component id="authorLbl" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="titleLbl" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="costLbl" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace pref="18" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="titleTxtField" alignment="1" pref="445" max="32767" attributes="0"/>
+                          <Component id="authorTxtField" alignment="1" max="32767" attributes="0"/>
+                          <Component id="costTxtField" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+              <Component id="appTitle" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="authorTxtField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="authorLbl" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="titleLbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="titleTxtField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="costLbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="costTxtField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="ebookPanel" max="32767" attributes="0"/>
+                  <Component id="audioPanel" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="addButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="displayButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="deleteButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="saveButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="loadButton" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="40" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="appTitle">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Apple Braille" size="18" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Bookstore Application "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="authorTxtField">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="authorTxtFieldActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="authorLbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Author:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="titleLbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Title:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="titleTxtField">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="titleTxtFieldActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="costLbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Cost:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="costTxtField">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="costTxtFieldActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="addButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="ADD"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="addButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="displayButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="DISPLAY"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="displayButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="deleteButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="DELETE"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="deleteButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="saveButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="SAVE INTO FILE"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="saveButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Container class="javax.swing.JPanel" name="ebookPanel">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+            <LineBorder/>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="fileFormatLbl" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="fileFormatTxtField" max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="eBookTitle" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="hintLbl1" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="eBookTitle" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="fileFormatLbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="fileFormatTxtField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Component id="hintLbl1" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="fileFormatLbl">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="File Format: "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="eBookTitle">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Lucida Grande" size="13" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="For e-Books"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="hintLbl1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Lucida Grande" size="13" style="2"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Select &quot;N/A&quot; if not applicable."/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="fileFormatTxtField">
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="audioPanel">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+            <LineBorder/>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="narratorLbl" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="narratorTxtField" max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="audioTitle" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="hintLbl2" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="0" pref="20" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="audioTitle" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="narratorLbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="narratorTxtField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="27" max="32767" attributes="0"/>
+                  <Component id="hintLbl2" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="narratorLbl">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Narrator:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="narratorTxtField">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="narratorTxtFieldActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="audioTitle">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Lucida Grande" size="13" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="For Audio Books"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="hintLbl2">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Lucida Grande" size="13" style="2"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Type N/A if not applicable."/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="loadButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="LOAD"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="loadButtonActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
